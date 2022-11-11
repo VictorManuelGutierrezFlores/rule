@@ -26,7 +26,7 @@
         </div>
     <!--</div>-->
     <footer class="bg-orange-500 py-6 mt-8 text-right">
-        <div class="font-semibold pr-4">Benemerita Universidad Autonoma de Puebla</div>
+        <div class="font-semibold pr-4">Benemérita Universidad Autonoma de Puebla</div>
         <div class="font-light pr-4">Facultad de Ciencias de la Computación</div>
     </footer>
 </body>
