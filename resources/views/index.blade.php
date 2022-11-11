@@ -20,13 +20,13 @@
                 </div>
                 <div class="">
                     <div class="text-2xl font-medium">Agregar Equipos</div>
-                    <p class="font-normal">Maximo 3 equipos</p>
+                    <p class="font-normal">Máximo 3 equipos</p>
                 </div>
             </div>
         </div>
     <!--</div>-->
     <footer class="bg-orange-500 py-6 mt-8 text-right">
-        <div class="font-semibold pr-4">Benemérita Universidad Autonoma de Puebla</div>
+        <div class="font-semibold pr-4">Benemérita Universidad Autónoma de Puebla</div>
         <div class="font-light pr-4">Facultad de Ciencias de la Computación</div>
     </footer>
 </body>
