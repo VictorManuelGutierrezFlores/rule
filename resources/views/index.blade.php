@@ -10,14 +10,15 @@
                 <div class="shrink-0">
                     <img class="h-20 w-20" src="img/mas.png" alt="Signo mas">
                 </div>
-                <div class="text-right">
-                    <div class="text-2xl font-medium">
-                        <a href="/crearequipos">
-                        Agregar Equipos
-                        </a>
-                    </div>
-                    <p class="font-normal">Maximo 3 equipos</p>
+                <div class="">
+                    <div class="text-2xl font-medium">Agregar Equipos</div>
+                    <p class="font-normal">Máximo 3 equipos</p>
                 </div>
             </div>
         </div>
+    <!--</div>-->
+    <footer class="bg-orange-500 py-6 mt-8 text-right">
+        <div class="font-semibold pr-4">Benemérita Universidad Autónoma de Puebla</div>
+        <div class="font-light pr-4">Facultad de Ciencias de la Computación</div>
+    </footer>
     @endsection
