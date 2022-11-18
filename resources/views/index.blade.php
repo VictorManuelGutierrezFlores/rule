@@ -14,13 +14,25 @@
             <div class="max-w-sm mx-auto">
                 <img src="img/logo_rule.png" alt="Logo rule" class="py-10">
             </div>
+<<<<<<< Updated upstream
             <div class="p-4 max-w-sm mx-auto bg-[#D61C4E] rounded-3xl flex items-center space-x-4 text-white text-right">
+=======
+            <!--BUTON DE INCIO-->
+            <div class="p-1 max-w-sm w-72 mx-auto bg-[#D61C4E] rounded-3xl flex items-center space-x-4 text-white text-right transition ease-in-out delay-150  hover:-translate-1 hover:scale-105 hover:bg-[#D61C4E] duration-150">
+>>>>>>> Stashed changes
                 <div class="shrink-0">
-                    <img class="h-20 w-20" src="img/mas.png" alt="Signo mas">
+                    <img class="h-16 w-16" src="img/mas.png" alt="Signo mas">
                 </div>
+<<<<<<< Updated upstream
                 <div class="">
                     <div class="text-2xl font-medium">Agregar Equipos</div>
                     <p class="font-normal">Máximo 3 equipos</p>
+=======
+                <div class="text-2xl font-medium w-auto">
+                    <a href="/crearequipos">
+                        Agregar Equipos
+                    </a>
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
