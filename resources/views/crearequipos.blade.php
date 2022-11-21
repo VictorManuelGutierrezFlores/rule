@@ -34,7 +34,7 @@
     <input class="text-center block w-full rounded-md font-bold placeholder-black" placeholder="Inserte nombre del equipo 1" style="background-color:transparent;"></input>
     </div>
     <div class="rounded-xl max-w-sm mx-auto bg-[#6CD6CE] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#6CD6CE] duration-300">
-    <input class="text-center block w-full rounded-md font-bold text-gray-100 placeholder-black" placeholder="Inserte nombre del equipo 2 " style="background-color:transparent;"></input>
+    <input class="text-center block w-full rounded-md font-bold text-black placeholder-black" placeholder="Inserte nombre del equipo 2 " style="background-color:transparent;"></input>
     </div>
     <div class="rounded-xl max-w-sm mx-auto bg-[#FEDB39] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#FEDB39] duration-300" style="display:none" id="equipo3" >
         <input class="text-center block w-full rounded-md font-bold placeholder-black" placeholder="Inserte nombre del equipo 3" style="background-color:transparent;"></input>
