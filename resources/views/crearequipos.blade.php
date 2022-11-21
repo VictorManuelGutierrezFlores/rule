@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RULE</title>
-    @vite('resources/css/app.css')
-</head>
-<body>
-    <p>Hola mundo</p>
-</body>
-</html>
-=======
 @extends('layout')
 
 @section('content')
@@ -42,14 +28,14 @@
 
 <div class="flex-col bg-yellow-500 max-w-sm mx-auto mt-6 space-y-5 p-5 rounded-t-lg rounded-b-lg">
     <p class="font-normal text-center text-xl font-bold pb-5">Escriba los nombre de equipos</p>
-    <div class="rounded-xl max-w-sm mx-auto bg-[#D61C4E] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#D61C4E] duration-300">
-    <input class="text-center block w-full rounded-md font-bold" placeholder="Inserte nombre del equipo 1" style="background-color:transparent;"></input>
+    <div class="rounded-xl max-w-sm mx-auto text-white bg-[#D61C4E] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#D61C4E] duration-300">
+    <input class="text-center block w-full rounded-md font-bold placeholder-black" placeholder="Inserte nombre del equipo 1" style="background-color:transparent;"></input>
     </div>
     <div class="rounded-xl max-w-sm mx-auto bg-[#6CD6CE] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#6CD6CE] duration-300">
-    <input class="text-center block w-full rounded-md font-bold text-gray-100" placeholder="Inserte nombre del equipo 2 " style="background-color:transparent;"></input>
+    <input class="text-center block w-full rounded-md font-bold text-gray-100 placeholder-black" placeholder="Inserte nombre del equipo 2 " style="background-color:transparent;"></input>
     </div>
     <div class="rounded-xl max-w-sm mx-auto bg-[#FEDB39] p-7 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#FEDB39] duration-300 hidden" id="equipo3" >
-        <input class="text-center block w-full rounded-md font-bold" placeholder="Inserte nombre del equipo 3" style="background-color:transparent;"></input>
+        <input class="text-center block w-full rounded-md font-bold placeholder-black" placeholder="Inserte nombre del equipo 3" style="background-color:transparent;"></input>
     </div>
 
     <!-- boton para agregar/quitar equipo 3-->
@@ -66,4 +52,3 @@
     </button>
 </div>
 @endsection
->>>>>>> Stashed changes
