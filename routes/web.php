@@ -20,3 +20,7 @@ Route::get('/', function(){
 Route::get('/crearequipos',function(){
     return view('crearequipos');
 })->name('crearequipos');
+
+Route::get('/comienzajuego',function(){
+    return view('comienzajuego');
+})->name('comienzajuego');
