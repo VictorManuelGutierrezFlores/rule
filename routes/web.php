@@ -46,6 +46,6 @@ Route::get('/r321',function(){
 })->name('r321');
 
 Route::get('/r312',function(){
-    return view('r321');
-})->name('r321');
+    return view('r312');
+})->name('r312');
 

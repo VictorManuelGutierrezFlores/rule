@@ -1,4 +1,5 @@
 @extends('layout')
+
 @section('content')
 
 <div class="space-y-1 pb-8 bg-fixed flex-col" style="background-image:url(/img/logo_rule-png.png);background-size: 15%; background-position:left top;background-repeat: no-repeat;">

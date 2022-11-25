@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-
+<!--OCULTA/DESOCULTA EQUIPO 3--->
 <script type="text/javascript" >
     function agregar_equipo(){
         document.getElementById("equipo3").style.display = "block";
@@ -23,9 +23,8 @@
             boton.innerHTML = 'Agregar equipo';
         }
     }
-
-
 </script>
+
 <div class="space-y-1 pb-8 bg-fixed flex-col " style="background-image:url(/img/logo_rule-png.png);background-size: 15%; background-position:left top;background-repeat: no-repeat;">
 <div class="flex-col max-w-sm mx-auto mt-0 space-y-5 p-5 rounded-t-lg rounded-b-lg ">
 
@@ -44,7 +43,6 @@
     <div class="max-w-sm mx-auto">
         <button type="button" id="boton" class="ml-24 px-4 py-1 rounded-full transition ease-in-out delay-150 bg-[#2A3990] text-white font-just text-2xl hover:-translate-1 hover:scale-105 hover:bg-[#293462] duration-150" onclick="mostrar_ocultar()">Agregar equipo</button>
     </div>
-
 </div>
 
 <div class="flex-col max-w-sm mx-auto mt-3 space-y-5 p-5 rounded-t-lg rounded-b-lg ">
@@ -55,5 +53,4 @@
         </button>
     </a>
 </div>
-
 @endsection
