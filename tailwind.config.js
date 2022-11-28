@@ -6,6 +6,10 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
+
+    fontFamily:{
+      'just': ['Just Another Hand']
+    },
     extend: {},
   },
   plugins: [],
