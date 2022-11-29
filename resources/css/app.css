@@ -3,3 +3,79 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.puntaje_circulo{
+    height: 75px;
+    width: 75px;
+}
+
+.equipos{
+    padding: 19px;
+}
+
+.botones_resultados{
+    width: 500px;
+}
+
+
+/*estilos de temporizador*/
+
+:root {
+    --lado: 250px;
+}
+
+* {
+    transition: all 1s;
+    box-sizing: border-box;
+}
+
+
+.contenedor {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moneda,
+.lado{
+    width: var(--lado);
+    height: var(--lado);
+}
+
+.moneda {
+    position: relative;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.lado {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 800%;
+}
+
+.frente {
+    background: #D61C4E;
+    color: #FFF;
+}
+
+.atras {
+    background: #293462;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.frente i{
+    color: #fff;
+}
+
+.atras i{
+    color: #FEDB39;
+}

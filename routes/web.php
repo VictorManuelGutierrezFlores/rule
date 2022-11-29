@@ -24,3 +24,11 @@ Route::get('/crearequipos',function(){
 Route::get('/comienzajuego',function(){
     return view('comienzajuego');
 })->name('comienzajuego');
+
+Route::get('/r213',function(){
+    return view('r213');
+})->name('r213');
+
+Route::get('/index',function(){
+    return view('index');
+})->name('index');
