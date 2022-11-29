@@ -37,6 +37,10 @@ Route::get('/r213',function(){
     return view('r213');
 })->name('r213');
 
+Route::get('/index',function(){
+    return view('index');
+})->name('index');
+
 Route::get('/r231',function(){
     return view('r231');
 })->name('r231');
@@ -48,4 +52,3 @@ Route::get('/r321',function(){
 Route::get('/r312',function(){
     return view('r312');
 })->name('r312');
-
