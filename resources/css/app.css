@@ -3,3 +3,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.puntaje_circulo{
+    height: 75px;
+    width: 75px;
+}
+
+.equipos{
+    padding: 19px;
+}
+
+.lugar{
+    align-items: center;
+}
