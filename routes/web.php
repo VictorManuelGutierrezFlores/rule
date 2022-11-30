@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+//llama al controlador
+use App\Http\Controllers\TeamController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +23,9 @@ Route::get('/', function(){
 Route::get('/crearequipos',function(){
     return view('crearequipos');
 })->name('crearequipos');
+
+
+Route::post('/crearequipos',[TeamController::class,'create'])->name('comienzajuego.create');
 
 Route::get('/comienzajuego',function(){
     return view('comienzajuego');
