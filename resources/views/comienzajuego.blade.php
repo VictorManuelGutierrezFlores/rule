@@ -8,9 +8,9 @@
     let contador = 0
     let contando = false
 
-    var suspender_sonido = new Audio('img/sonido Start Boxing.ogg');
-    var clic1 = new Audio('img/sonido click 002.ogg')
-    var clic2 = new Audio('img/sonido click 004.ogg')
+    var suspender_sonido = new Audio('sounds/s-start-boxing.ogg');
+    var clic1 = new Audio('sounds/s-click-002.ogg')
+    var clic2 = new Audio('sounds/s-click-004.ogg')
     suspender()
 
     function temporizar() {
@@ -88,17 +88,12 @@
             </div>
 
             <!--columna 2-->
-            <div class="rounded-full text-black rounded-full puntaje_circulo mx-auto bg-[#1CD6CE] p-5">
+            <div class="text-black rounded-full puntaje_circulo mx-auto bg-[#1CD6CE] p-5">
                 <p class="font-just text-4xl text-center">5</p>
             </div>
-            <div class="rounded-full text-black rounded-full puntaje_circulo mx-auto bg-[#FEDB39] p-5">
+            <div class="text-black rounded-full puntaje_circulo mx-auto bg-[#FEDB39] p-5">
                 <p class="font-just text-4xl text-center">10</p>
             </div>
-            <div class="rounded-full text-white rounded-full puntaje_circulo mx-auto bg-[#293462] p-5" >
-                    <p class="font-just text-4xl text-center">15</p>
-            </div>
-
-
             <!--columna 3-->
             <div class="columns-xs font-just">
             <br>
