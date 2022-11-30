@@ -9,7 +9,9 @@
         <a href="/crearequipos">
         <div class="button p-1 max-w-sm w-52 mx-auto bg-[#D61C4E] rounded-3xl flex items-center space-x-4 text-white transition ease-in-out delay-150  hover:-translate-1 hover:scale-105 hover:bg-[#D61C4E] duration-150">
             <div class="font-medium w-auto m-auto font-just text-6xl">
+                <span class="py-2">
                     Iniciar
+                </span>
             </div>
         </div>
         </a>
