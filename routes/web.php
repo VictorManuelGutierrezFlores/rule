@@ -2,12 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-<<<<<<< Updated upstream
-=======
-//LLAMADA AL CONTROLADOR
+
+//llama al controlador
 use App\Http\Controllers\TeamController;
 
->>>>>>> Stashed changes
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,11 +25,8 @@ Route::get('/crearequipos',function(){
     return view('crearequipos');
 })->name('crearequipos');
 
-<<<<<<< Updated upstream
-=======
 Route::post('/crearequipos',[TeamController::class,'create'])->name('comienzajuego.create');
 
->>>>>>> Stashed changes
 Route::get('/comienzajuego',function(){
     return view('comienzajuego');
 })->name('comienzajuego');

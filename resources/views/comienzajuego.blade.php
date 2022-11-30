@@ -78,13 +78,13 @@
         <div class=" h-96 columns-3 flex-col grid-rows-6 grid-flow-col gap-0 mx-auto mt-0 space-y-5 p-5 rounded-t-lg rounded-b-lg max-w-4xl">
             <!--columna 1-->
             <div class="rounded-xl max-w-sm mx-auto text-black bg-[#1CD6CE] equipos">
-                <p class="font-just text-4xl text-center">Nombre equipo 1</p>
+                <p class="font-just text-4xl text-center">{{$teams['team1']}}</p>
             </div>
             <div class="rounded-xl max-w-sm mx-auto text-black bg-[#FEDB39] equipos">
-                <p class="font-just text-4xl text-center">Nombre equipo 2</p>
+                <p class="font-just text-4xl text-center">{{$teams['team2']}}</p>
             </div>
             <div class="rounded-xl max-w-sm mx-auto text-white bg-[#293462] equipos" >
-                <p class="font-just text-4xl text-center">Nombre equipo 3</p>
+                <p class="font-just text-4xl text-center">{{$teams['team3']}}</p>
             </div>
 
             <!--columna 2-->

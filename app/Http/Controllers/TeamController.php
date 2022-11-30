@@ -25,6 +25,5 @@ class TeamController extends Controller
         }
 
         return view('comienzajuego',['teams'=>$dataTeam]);
-        return view('marcadorfinal',['teams'=>$dataTeam]);
     }
 }
