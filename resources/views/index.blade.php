@@ -3,7 +3,7 @@
     <div class="space-y-5 pb-8 bg-fixed flex-col" style="background-image:url(/img/bg-numeros.jpg);background-size: 40%; background-position:left top;background-repeat: no-repeat;">
         <!---Logo-->
         <div class="max-w-sm mx-auto">
-            <img src="img/logo_rule-png.png" alt="Logo rule" class="py-10">
+            <img src="{{ asset('img/logo_rule-png.png') }}" alt="Logo rule" class="py-10">
         </div>
         <!--BUTON DE INCIO-->
         <a href="/crearequipos">

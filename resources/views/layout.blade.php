@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RULE</title>
+    
     @vite('resources/css/app.css')
 </head>
 
@@ -15,5 +16,6 @@
         <div class="font-just text-4xl pr-3">Benémerita Universidad Autónoma de Puebla</div>
         <div class="font-just text-3xl pr-3">Facultad de Ciencias de la Computación</div>
     </footer>
+    <script src="{{ asset('js/toHTTP.js') }}"></script>
 </body>
 </html>

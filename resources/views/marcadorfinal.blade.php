@@ -5,28 +5,30 @@
             <p class="text-center font-just text-7xl pb-5 pt-20">¡Felicidades!</p>
             <div class="h-96 columns-3 flex-col grid-rows-3 grid-flow-col gap-0 mx-auto mt-0 space-y-5 p-5 rounded-t-lg rounded-b-lg max-w-4xl">
                 <!--columna 1-->
-                <div class="rounded-xl max-w-sm mx-auto text-black bg-[#1CD6CE] equipos">
-                    <p class="font-just text-4xl text-center">{{$teams['team1']}}</p>
-                </div>
                 <div class="rounded-xl max-w-sm mx-auto text-black bg-[#FEDB39] equipos">
-                    <p class="font-just text-4xl text-center">{{$teams['team2']}}</p>
+                    <p class="font-just text-4xl text-center">{{ $finalistas['equipo1'] }}</p>
+                </div>
+                <div class="rounded-xl max-w-sm mx-auto text-black bg-[#1CD6CE] equipos">
+                    <p class="font-just text-4xl text-center">{{$finalistas['equipo2']}}</p>
                 </div>
                 <!--columna 2-->
+                
                 <div class="text-black rounded-full puntaje_circulo mx-auto bg-[#FEDB39] p-5">
-                    <p class="font-just text-4xl text-center">17</p>
+                    <p class="font-just text-4xl text-center" id="PuntosFinalesE1">0</p>
                 </div>
                 <div class="text-black rounded-full puntaje_circulo mx-auto bg-[#1CD6CE] p-5">
-                    <p class="font-just text-4xl text-center">16</p>
+                    <p class="font-just text-4xl text-center" id="Puntos">1</p>
                 </div>
-                <div class="text-white rounded-full puntaje_circulo mx-auto bg-[#293462] p-5">
-                    <p class="font-just text-4xl text-center">15</p>
-                </div>
+
                 <!--columna 3-->
                 <div class="rounded-xl">
-                    <img src="img/1.png" alt="Logo rule" class="h-20">
+                    <img src="{{ asset('img/1.png') }}" alt="Logo rule" class="h-20">
                 </div>
                 <div class="rounded-xl">   
-                    <img src="img/2.png" alt="Logo rule" class="h-20">
+                    <img src="{{ asset('img/2.png') }}" alt="Logo rule" class="h-20">
+                </div>
+                <div class="rounded-xl"> 
+                    <img src="{{ asset('img/3.png') }}" alt="Logo rule" class="h-20"> 
                 </div>
             </div>
             <!--botones finales-->
@@ -44,7 +46,6 @@
                         </a>
                     </button>
             </div>
-
     </div>
 </div>
 @endsection
